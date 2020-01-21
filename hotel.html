@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script type="text/javascript" src="hotel.js" >
+</script>
+	<title></title>
+</head>
+<body>
+pid : <input type="number" id="pid"/><br/>
+pname : <input type="text" id="pn"><br/>
+unitp : <input type="number" id="up"><br/>
+qty   : <input type="number" id="qt" onBlur="mult()"><br/>
+total : <input type="number" id="tt"><br/><br/>
+country: <select id="cn" onChange="tax()">
+	     <option>select</option>
+	     <option>india</option>
+	     <option>japan</option>
+	     <option>usa</option>
+</select>
+<br/>
+tax    : <input type="number" id="tx"/><br/>
+gt     : <input type="number" id="gt"/><br/>
+
+</body>
+
+</html>
